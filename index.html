@@ -23,8 +23,6 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'gradient-start': '#FF8938'
-                        'gradient-end': '#FF0'
                     }
                 }
             }
@@ -33,12 +31,12 @@
 </head>
 
 <body class="font-manrope">
-    <header class="container mx-auto py-12 lg:py-24">
+    <header class="container mx-auto lg:w-4/5 py-12 lg:pt-12 pb-24">
         <div class="hero">
             <div class="hero-content justify-between items-center flex-col lg:flex-row">
                 <div class="flex-1">
                     <h1
-                        class="text-[#1C1C1C] text-4xl lg:text-7xl font-extrabold leading-[45px] md:leading-[50px] lg:leading-[100px]">
+                        class="text-[#1C1C1C] text-4xl md:text-6xl md:leading-[80px] lg:text-7xl font-extrabold leading-[45px] lg:leading-[100px]">
                         It's good <br>
                         tea time at The <br>
                         Tea House</h1>
@@ -61,9 +59,9 @@
             </div>
         </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto lg:w-4/5">
         <!-- feature product section  -->
-        <section class="px-4 lg:px-32">
+        <section class="mx-4 lg:mx-auto">
             <div class="flex flex-col justify-center items-center space-y-4">
                 <h2 class="text-[#1C1C1C] text-2xl lg:text-5xl font-extrabold leading-normal">Our Featured Products</h2>
                 <p class="text-center lg:w-2/3 text-[#777] text-base font-medium leading-8">There are many variations of
@@ -108,7 +106,7 @@
 
         </section>
         <!-- great tea section  -->
-        <section class="px-4 lg:px-32 py-12">
+        <section class="mx-4 lg:mx-auto py-12">
             <div class="flex flex-col lg:flex-row gap-12">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 flex-1">
                     <div class="h-[136px] opacity-20 rounded-md bg-gradient-to-r from-amber-500 to-red-500"></div>
@@ -137,7 +135,7 @@
             </div>
         </section>
         <!-- super client section  -->
-        <section class="px-4 lg:px-32 py-12">
+        <section class="mx-4 lg:mx-auto py-12">
             <div
                 class="p-6 lg:p-16 flex justify-between items-center gap-5 flex-col lg:flex-row bg-gradient-to-r from-amber-500 to-red-500 rounded-md">
                 <div class="flex-1 space-y-5">
@@ -146,7 +144,7 @@
                     <p class="text-[#fff] text-base font-medium leading-8">There are many variations of passages of
                         Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
                         humour, or randomised words which don't look even slightly believable. </p>
-                    <button class="btn text-amber-500">Show All</button>
+                    <button class="hover:bg-base-200 transition-all font-bold text-xl bg-[#fff] px-7 py-3 rounded-md text-amber-500">Show All</button>
                 </div>
                 <div class="flex-1 relative">
                     <div class="p-8 bg-white rounded-md relative opacity-25 z-10 mb-14 w-3/4 ml-auto">
@@ -157,6 +155,9 @@
                             suitable home insurance services for the people who are interested to treatment</h3>
                         <h4 class="text-[#1c1c1c] text-base font-bold leading-8">Ilham Yuda</h4>
                         <p class="text-[#5D5A6F] text-base font-medium leading-8">Businessman</p>
+                        <div class="flex justify-end">
+                            <img src="./images/circles.png" alt="">
+                        </div>
                     </div>
                     <!-- current  -->
                     <div class="absolute bottom-36 w-3/4">
@@ -168,6 +169,9 @@
                                 suitable home insurance services for the people who are interested to treatment</h3>
                             <h4 class="text-[#1c1c1c] text-base font-bold leading-8">Ilham Yuda</h4>
                             <p class="text-[#5D5A6F] text-base font-medium leading-8">Businessman</p>
+                            <div class="flex justify-end">
+                                <img src="./images/circles.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="p-8 bg-white rounded-md relative opacity-25 z-10 w-3/4 ml-auto">
@@ -178,13 +182,124 @@
                             suitable home insurance services for the people who are interested to treatment</h3>
                         <h4 class="text-[#1c1c1c] text-base font-bold leading-8">Ilham Yuda</h4>
                         <p class="text-[#5D5A6F] text-base font-medium leading-8">Businessman</p>
+                        <div class="flex justify-end">
+                            <img src="./images/circles.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news and events  -->
+        <section class="mx-4 lg:mx-auto py-12">
+            <div class="flex flex-col justify-center items-center space-y-4">
+                <h2 class="text-[#1C1C1C] text-2xl lg:text-5xl font-extrabold leading-normal">News & Events</h2>
+                <p class="text-center lg:w-5/6 text-[#777] text-base font-medium leading-8">There are many variations of
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. </p>
+            </div>
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12">
+                <div class="card px-3 border border-[#D2D2D2]">
+                    <figure class="px-3 pt-10">
+                        <img src="./images/news-1.png" alt="Shoes" class="rounded-md" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-[#777] text-base font-medium">Feb 05, 2027</p>
+                        <h2 class="card-title text-[#1c1c1c] text-xl font-extrabold leading-normal">Collecting 8 points
+                            for discount</h2>
+                        <p class="text-[#777] text-base font-medium ">There are many variations of passages of Lorem
+                            Ipsum available.</p>
+                        <div class="card-actions">
+                            <button
+                                class="text-[#1c1c1c] text-base font-bold leading[28px] transition ease-in-out hover:scale-95">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card px-3 border border-[#D2D2D2]">
+                    <figure class="px-3 pt-10">
+                        <img src="./images/news-2.png" alt="Shoes" class="rounded-md" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-[#777] text-base font-medium">Feb 05, 2027</p>
+                        <h2 class="card-title text-[#1c1c1c] text-xl font-extrabold leading-normal">Collecting 8 points
+                            for discount</h2>
+                        <p class="text-[#777] text-base font-medium ">There are many variations of passages of Lorem
+                            Ipsum available.</p>
+                        <div class="card-actions">
+                            <button
+                                class="text-[#1c1c1c] text-base font-bold leading[28px] transition ease-in-out hover:scale-95">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card px-3 border border-[#D2D2D2]">
+                    <figure class="px-3 pt-10">
+                        <img src="./images/news-3.png" alt="Shoes" class="rounded-md" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="text-[#777] text-base font-medium">Feb 05, 2027</p>
+                        <h2 class="card-title text-[#1c1c1c] text-xl font-extrabold leading-normal">Collecting 8 points
+                            for discount</h2>
+                        <p class="text-[#777] text-base font-medium ">There are many variations of passages of Lorem
+                            Ipsum available.</p>
+                        <div class="card-actions">
+                            <button
+                                class="text-[#1c1c1c] text-base font-bold leading[28px] transition ease-in-out hover:scale-95">Learn
+                                More</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="container lg:mx-auto px-4 py-12 bg-gradient-to-r from-[#FF000019] to-[#FF893819] lg:px-36 lg:py-24">
+        <div class="flex justify-between items-center pb-10 lg:pb-20">
+            <div class="flex-1">
+                <img src="./images/cup.png" alt="">
+            </div>
+            <div class="flex justify-center items-center gap-10">
+                <h2 class="text-xl text-[#494949] font-medium">Ready to get strated?</h2>
+                <button class="btn text-white bg-gradient-to-r from-amber-500 to-red-500">Get Started</button>
+            </div>
+        </div>
+        <footer class="footer justify-between text-black">
+            <nav>
+                <header class="text-[#1c1c1c] text-xl font-semibold">Quick Links</header>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Insurance</a>
+                <a class="link link-hover">Privacy Policy</a>
+            </nav>
+            <nav>
+                <header class="text-[#1c1c1c] text-xl font-semibold">Our Service</header>
+                <a class="link link-hover">Life Insurance</a>
+                <a class="link link-hover">Car Insurance</a>
+                <a class="link link-hover">Health Insurance</a>
+                <a class="link link-hover">House Insurance</a>
+            </nav>
+            <nav>
+                <header class="text-[#1c1c1c] text-xl font-semibold">Help</header>
+                <a class="link link-hover">FAQ's</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <nav>
+                <header class="text-[#1c1c1c] text-2xl font-semibold mb-10">Subscribe to our <br> newsletter</header>
+                <div class="flex gap-16 justify-between items-center ">
+                    <input class="bg-transparent text-sm font-normal text-[#494949] outline-none pb-6 border border-b-[#494949]"
+                        type="email" name="email" id="" placeholder="Email address">
+                    <button class="btn text-white bg-gradient-to-r from-amber-500 to-red-500 rounded-full text-2xl">></button>
+                </div>
+                <div class="mt-8 space-x-5 text-[#494949] text-xl">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </nav>
+        </footer>
+        <div class="mt-12 flex justify-center items-center">
+            <p class="text-[#494949 text-base font-medium leading-normal">© 2024 <span class="text-[#F27029] font-bold">Mahdi Hasan</span> - All rights reserved.</p>
+        </div>
     </footer>
 </body>
 
